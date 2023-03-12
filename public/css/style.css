@@ -1,0 +1,50 @@
+.main {
+    height: 100vh;
+}
+.sidebar {
+    background: rgb(61, 60, 60);
+    color: aliceblue;
+}
+.sidebar a {
+    color:aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+    
+}
+
+.sidebar a:hover {
+    background: rgb(0, 179, 255);
+}
+
+.active {
+    background: rgb(0, 179, 255);
+    border-right: solid 10px black;
+}
+.card-data {
+    padding: 20px 50px;
+}
+
+.card-data.book {
+    background-color: cyan;
+}
+
+.card-data.category {
+    background-color:bisque;
+}
+
+.card-data.user {
+    background-color:lightgreen;
+}
+
+.card-data i {
+    font-size: 80px;
+}
+
+.card-desc {
+    font-size: 30px;
+}
+
+.card-count {
+    font-size: 30px;
+}
